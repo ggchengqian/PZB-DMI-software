@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CAdditionInfo</class>
+ <widget class="QWidget" name="CAdditionInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>78</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLCDNumber" name="distance_Number">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>78</y>
+     <width>78</width>
+     <height>44</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

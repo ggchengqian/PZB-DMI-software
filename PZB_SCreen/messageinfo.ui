@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CMessageInfo</class>
+ <widget class="QWidget" name="CMessageInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>144</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>336</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>48</y>
+     <width>336</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>96</y>
+     <width>336</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>337</x>
+     <y>1</y>
+     <width>65</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{ 
+background: rgb(6,17,35);
+font-size:15pt;
+color:gray;
+border-left:1px solid balck;
+border-top:1px solid black;
+border-right:1px solid rgb(8,24,57);
+border-bottom:1px solid rgb(8,24,57); 
+outline: none; 
+} 
+ </string>
+   </property>
+   <property name="text">
+    <string>up</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>337</x>
+     <y>73</y>
+     <width>65</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{ 
+background: rgb(6,17,35);
+font-size:15pt;
+color:gray;
+border-left:1px solid balck;
+border-top:1px solid black;
+border-right:1px solid rgb(8,24,57);
+border-bottom:1px solid rgb(8,24,57); 
+outline: none; 
+} 
+ </string>
+   </property>
+   <property name="text">
+    <string>down</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

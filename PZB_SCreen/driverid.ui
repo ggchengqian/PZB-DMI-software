@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CDriverID</class>
+ <widget class="QWidget" name="CDriverID">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="Title_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>440</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>440</width>
+     <height>44</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>440</width>
+     <height>44</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+font-size:15pt;
+color:gray;
+border: 0px; 
+background-color: black;
+} </string>
+   </property>
+   <property name="text">
+    <string>Driver ID</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelBtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>620</y>
+     <width>119</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>119</width>
+     <height>72</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>119</width>
+     <height>72</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+background: rgb(6,17,35);
+font-size:15pt;
+color:gray;
+border-left:1px solid balck;border-top:1px solid black;border-right:1px solid rgb(8,24,57);border-bottom:1px solid rgb(8,24,57);
+outline: none;
+} </string>
+   </property>
+   <property name="text">
+    <string>close</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="driverID_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>82</y>
+     <width>440</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>440</width>
+     <height>72</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>440</width>
+     <height>72</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+font-size:15pt;
+color:white;
+border: 0px;
+background: rgb(85, 85, 85); 
+}  
+QLineEdit:focus {
+font-size:15pt;
+border:0px;
+color:black;
+background: rgb(150, 150, 150); 
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="okBtn">
+   <property name="geometry">
+    <rect>
+     <x>119</x>
+     <y>620</y>
+     <width>238</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>238</width>
+     <height>72</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>238</width>
+     <height>72</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+background: rgb(6,17,35);
+font-size:15pt;
+color:gray;
+border-left:1px solid balck;border-top:1px solid black;border-right:1px solid rgb(8,24,57);border-bottom:1px solid rgb(8,24,57);
+outline: none;
+} </string>
+   </property>
+   <property name="text">
+    <string>TRN</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
